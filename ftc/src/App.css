@@ -1,0 +1,177 @@
+.buttons-style-right{
+    position: absolute;
+    margin-left: 75%;
+    top: 2%;
+
+}
+.icon-socials{
+    position: absolute;
+    margin-left: 70%;
+    top: 3.5%;
+}
+
+
+.home-btn, .about-btn, .contact-btn{
+    display: inline;  
+}
+.btn{
+    padding: 10px 20px;
+    margin: 10px;
+    color: black;
+    transform: translate(-50, -50);
+    outline: 0;
+    border-radius: 18px;
+    border-color: #2B4FFF;
+    background-color: white;
+    
+    
+}
+
+.line-border-seperate{
+    height: 1px;
+    width: 50%;
+    margin: auto;
+    top: 130%;
+    left: 500px;
+    background-color: black;
+    opacity: 25%;
+    position: absolute;
+}
+
+.logo-image{
+    max-height: 120px;
+    max-width: 400px;
+    position: absolute;
+    left: 50px;
+    top: 1.5%
+}
+
+.background{
+    height: 700px;
+    width: 100%;
+    margin-top: 7.1%;
+    position:absolute;
+    opacity: 100%;
+    left: 0%
+    
+}
+.service-times{
+position: absolute;
+top: 100%;
+left: 30%; 
+
+
+}
+
+.copyright{
+    top:130%;
+    position: absolute;
+    left: 43%;
+
+}
+.para-content-center{
+    top:98%;
+    left: 45%;
+    position: absolute; 
+}
+.service-font{
+    font-family: Century Gothic;
+    font-weight: 300;
+    font-size: 50px;
+}
+p{
+
+    font-family: Century Gothic;
+    font-size: 0px 20px;
+    font-weight: 300;
+    padding-left: 25px;
+    margin: 5px;
+    
+}
+
+
+
+.line{
+    height: 1px;
+    width: 50%;
+    margin: auto;
+    top: 97%;
+    left: 500px;
+    background-color: black;
+    opacity: 25%;
+    position: absolute;
+    
+}
+
+.locations-locations{
+position: absolute;
+top: 100%;
+left: 60%; 
+
+
+ 
+}
+
+@media all and (max-width: 600px){
+    .buttons-style-right{
+        position: absolute;
+        margin-left: 250px;
+        
+    }
+    .service-times{
+        left: 15%
+    }
+    .service-font{
+        font-family: Montserrat;
+        font-size: 50px;
+    
+    }
+    .btn{
+        padding: 1px 2px;
+        margin: 2px;
+        color: black;
+        transform: translate(-50, -50);
+        outline: 0;
+        border-radius: 18px;
+        border-color: #2B4FFF;
+        background-color: white;
+        
+        
+    }
+    p{
+        font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 300;
+
+    }
+    .locations-locations{
+        left: 55%
+    }
+
+    .background{
+        height: 200px;
+        width: 100%;
+        position: absolute;
+        margin-top: 5.5em;
+
+    }
+    .logo-image{
+        max-width: 100px;
+        max-height: 80px;
+        position: absolute;
+        top: 2px;
+        left: 50px;
+    }
+    .icon-socials{
+        position: absolute;
+        margin-left: 45%;
+        top: 3.5%;
+    }
+
+    .home-btn, .about-btn, .contact-btn{
+        display: inline;  
+    }
+}
+    
+
+
