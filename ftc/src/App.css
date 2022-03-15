@@ -174,17 +174,17 @@ left: 60%;
     
 }
 
-@media screen and (min-width: 600px) and (max-width: 1600px){
+@media screen and (min-width: 550px) and (max-width: 1600px){
     .icon-socials{
         position: absolute;
-        margin-left: 60%;
+        margin-left: 65%;
         top: 3.5%;
     }
     .background{
         height: 600px;
         width: 100%;
         position: absolute;
-        margin-top: 9%;
+        margin-top: 10%;
     }
   .line{
     left: 400px;
@@ -203,5 +203,30 @@ left: 60%;
       top: 1.5%
       
   }
+
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1400px){
+    .background{
+        height: 600px;
+        width: 100%;
+        position: absolute;
+        margin-top: 12%;
+}
+.line{
+    left: 380px;
+    position: absolute;
+    top: 95%;
+}
+.buttons-style-right{
+    margin-left:65%;
+    top: 2%
+
+}
+.icon-socials{
+    position: absolute;
+    margin-left: 60%;
+    top: 3.5%;
+}
 
 }
