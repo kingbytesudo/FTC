@@ -171,7 +171,37 @@ left: 60%;
     .home-btn, .about-btn, .contact-btn{
         display: inline;  
     }
-}
     
+}
 
+@media screen and (min-width: 600px) and (max-width: 1600px){
+    .icon-socials{
+        position: absolute;
+        margin-left: 60%;
+        top: 3.5%;
+    }
+    .background{
+        height: 600px;
+        width: 100%;
+        position: absolute;
+        margin-top: 9%;
+    }
+  .line{
+    left: 400px;
+  }
+  .logo-image{
+      top: 1.5%
+  }
+  .line-border-seperate{
+    left: 400px
+  }
+  .btn{
+    padding: 10px 20px;
+  }
+  .buttons-style-right{
+      margin-left:70%;
+      top: 1.5%
+      
+  }
 
+}
