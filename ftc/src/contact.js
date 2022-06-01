@@ -1,4 +1,4 @@
-function thechurch()    {
+function contact()    {
     return(
 
       <h2>
@@ -8,4 +8,4 @@ function thechurch()    {
 
     );
 }
-export default thechurch;
+export default contact;
